@@ -68,11 +68,10 @@ Then you can install using [Homebrew on Linux](https://docs.brew.sh/Homebrew-on-
 brew install mkcert
 ```
 
-or build from source (requires Go 1.13+)
+or build from source (requires Go 1.18+)
 
 ```
-git clone https://github.com/FiloSottile/mkcert && cd mkcert
-go build -ldflags "-X main.Version=$(git describe --tags)"
+go install github.com/liweitianux/mkcert@bsd
 ```
 
 or use [the pre-built binaries](https://github.com/FiloSottile/mkcert/releases).
